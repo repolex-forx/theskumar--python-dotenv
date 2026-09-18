@@ -1,0 +1,51 @@
+{
+  "@context": "https://repolex.ai/ontology/jsonld-context/repolex-context.jsonld",
+  "@id": "https://repolex.ai/r/theskumar/python-dotenv/commit/5bf882241c607445bf02cf5b241535d62e2b99c1",
+  "@type": "git:Commit",
+  "git:hexsha": "5bf882241c607445bf02cf5b241535d62e2b99c1",
+  "repolex:repository": {
+    "@id": "https://repolex.ai/r/theskumar/python-dotenv"
+  },
+  "repolex:graphFile": [
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "filetree",
+      "repolex:graphFilePath": "filetree/5bf882241c607445bf02cf5b241535d62e2b99c1.nq.gz",
+      "repolex:graphFileSize": 6924
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "commit",
+      "repolex:graphFilePath": "commit/commit.nq.gz",
+      "repolex:graphFileSize": 223233
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "branch",
+      "repolex:graphFilePath": "branch/branch.nq.gz",
+      "repolex:graphFileSize": 962
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "tag",
+      "repolex:graphFilePath": "tag/tag.nq.gz",
+      "repolex:graphFileSize": 4090
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "issue",
+      "repolex:graphFilePath": "issue/issue.nq.gz",
+      "repolex:graphFileSize": 176705
+    },
+    {
+      "@type": "repolex:GraphFile",
+      "repolex:graphType": "pr",
+      "repolex:graphFilePath": "pr/pr.nq.gz",
+      "repolex:graphFileSize": 245331
+    }
+  ],
+  "repolex:parseStatus": "parsed",
+  "repolex:parsedAt": "2026-09-18T09:30:03.840971+00:00",
+  "repolex:parserVersion": "0.1.0",
+  "git:tagName": "v1.2.0"
+}
