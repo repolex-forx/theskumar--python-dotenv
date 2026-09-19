@@ -1,0 +1,14 @@
+[2026-09-19T06:06:26Z] === ENRICH ITERATION 1 START | repo=theskumar/python-dotenv sha=30342386 ===
+[2026-09-19T06:06:26Z] [iter=1] PHASE START: enrich repo=theskumar/python-dotenv sha=30342386 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/30342386-enrich-iter-001.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/303423864ae00f8d5f21cb39d6421a7d775a3daf.nq.gz
+[2026-09-19T06:06:38Z] [iter=1] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-19T06:06:39Z] [iter=1] AST store loaded triples=92287 load_secs=1 mem_mb=214 MB
+[2026-09-19T06:06:39Z] [iter=1] Step 2: Finding LSP targets mem_mb=214 MB
+[2026-09-19T06:06:39Z] [iter=1] LSP targets found call_sites=618 imports=0 extends=0 implements=0 secs=0
+[2026-09-19T06:06:39Z] [iter=1] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=214 MB
+[2026-09-19T06:06:39Z] [iter=1] Position index built positions=6416 nodes_with_types=8356 secs=0 mem_mb=214 MB
+[2026-09-19T06:06:39Z] [iter=1] Step 3: Starting LSP resolution mem_mb=214 MB already_completed_types=[] already_completed_files=0
+[2026-09-19T06:06:39Z] [iter=1] Resolving target type target_type=call_site count=618
+[2026-09-19T06:06:50Z] [iter=1] Target type resolved target_type=call_site resolved=254 errors=104 secs=11 mem_mb=214 MB
+[2026-09-19T06:06:51Z] [iter=1] Step 5: Writing final enrichment file triples=4988
+[2026-09-19T06:06:51Z] [iter=1] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/303423864ae00f8d5f21cb39d6421a7d775a3daf.nq.gz size_kb=80
+[2026-09-19T06:06:51Z] [iter=1] PHASE END: enrich elapsed_s=26 elapsed_min=0.4 total_triples=4988
